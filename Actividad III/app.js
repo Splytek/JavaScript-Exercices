@@ -19,4 +19,13 @@
   //Area del rectangulo
   var a_rectangulo = (b, h) => b * h;
   document.getElementById("a_rectangulo").innerHTML = "Area = 10 * 6 = " + a_rectangulo(10,6) + "cm^2";
+  //Area del rectangulo
+  var a_cuadrado = (b, h) => b * h;
+  document.getElementById("a_cuadrado").innerHTML = "Area = PI * 4^2 = " + a_cuadrado(10,6) + "cm^2";
+  //Area del rectangulo
+  var a_T_Equilatero = (b, h) => b * h;
+  document.getElementById("a_T_equilatero").innerHTML = "Area = 10 * 6 = " + a_T_Equilatero(10,6) + "cm^2";
+  //Area del rectangulo
+  var a_circunferencia = (b, h) => b * h;
+  document.getElementById("a_circunferencia").innerHTML = "Area = 10 * 6 = " + a_circunferencia(10,6) + "cm^2";
 
